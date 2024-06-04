@@ -1,0 +1,78 @@
+a {
+  text-decoration: none;
+}
+
+.bodybg {
+  height: 100vh;
+  background-image: url('/public/Images/R5.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.regcard {
+  font-family: sans-serif;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+  background-color: transparent;
+  backdrop-filter: blur(30px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 1.8rem;
+  transition: 0.25s ease;
+}
+
+.regcard:hover {
+  scale: 1.01;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.774);
+}
+
+.title {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: xx-large;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+.email-signup {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 15px 20px;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.btn {
+  font-size: large;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(13, 3, 40);
+  border: 1px solid rgb(13, 3, 40);
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border-radius: 10px;
+  transition: 0.5s ease;
+}
+
+.btn:hover {
+  background-color: white;
+  border: 1px solid green;
+  background-color: green;
+  color: white;
+}
+
